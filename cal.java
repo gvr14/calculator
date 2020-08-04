@@ -32,7 +32,8 @@ public class Calculator {
                 System.out.printf("Error! operator is not correct");
                 return;
         }
-
-        System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
+       
+        default:
+      System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
     }
 }
